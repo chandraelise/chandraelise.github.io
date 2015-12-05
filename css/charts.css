@@ -1,0 +1,306 @@
+* {
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 15px;
+	line-height: 17px;
+	padding-top: 6px;
+}
+
+#wrapper {
+	margin-top: 80px;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+}
+
+.row-1 {
+	min-height: 430px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.row-2 {
+	min-height: 386px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.row .col-3:first-child{
+	border: none;
+}
+
+.row-3 {
+	min-height: 338px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+	border-left: 1px solid black;
+}
+
+.col-4 {
+	width: 33%;
+	/*background-color: #f2f2f2;*/
+	border-left: 1px solid black;
+	height: 100%;
+}
+
+/*.col-4:first-child {
+	border: none;
+}*/
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+	border-left: 1px solid black;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+	background-color: #f2f2f2;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+[class*="col-"] {
+    float: left;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    /*margin-right: 5px;*/
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+h4 {
+	font-size: 34px;
+	font-weight: bold;
+	/*color: #b3b3b3;*/
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 200px;
+	line-height: 175px;
+}
+
+h5.nightmare {
+	font-size: 350px;
+	line-height: 265px;
+	font-weight: helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h5.money {
+	font-size: 240px;
+	line-height: 211px;
+	font-weight: helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.credits {
+	font-size: 10px;
+}
+
+ol.definition { 
+	padding-top: 10px;
+	padding-left: 35px; 
+	list-style: decimal;
+	list-style: bold;
+}
+
+ul.cause {
+	padding-top: 10px;
+	padding-left: 35px; 
+	list-style: disc;
+	font-weight: bold;
+	font-size: 14px;
+    line-height: 18px;
+}
+
+.drugs {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.ital {
+	font-style: italic;
+}
+
+img {
+	padding-top: 6px;
+	max-width: 100%;
+}
+
+.quote {
+	font-size: 28px;
+	line-height: 24px;
+	font-style: italic;
+	text-align: center;
+}
+
+.byline {
+	color: grey;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	padding-top: 14px;
+}
+
+#footer {
+	height: 60px;
+}
+
+@media (max-width: 400px) {
+  	.main_nav {
+  		display: none;
+  	}
+
+  	.col-3 {
+		width: 100%;
+		border-left: none;
+		border-bottom: 1px solid black;
+		padding-bottom: 0px;
+	}
+	.row .col-3:first-child {
+		border-bottom: 1px solid black;
+	}
+
+	.row-1 {
+		min-height: 350px;
+		margin-top: 25px;
+		margin-bottom: 0px;
+	}
+
+	.row-2 {
+		min-height: 375px;
+		margin-top: 25px;
+		margin-bottom: 0px;
+	}
+
+	.row-3 {
+		min-height: 375px;
+		margin-bottom: 0px;
+	}
+
+	.col-6 {
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+
+	.col-12 {
+		padding-bottom: 25px;
+		border-bottom: 1px solid black;
+	}
+
+	h5.money {
+		font-size: 140px;
+		line-height: 120px;
+	}
+
+	img.pie {
+		max-width: 75%;
+		padding-bottom: 25px;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  	.col-3 {
+		width: 50%;
+		border-bottom: 1px solid black;
+		padding-bottom: 0px;
+	} 
+	.col-6 {
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+
+	.col-12 {
+		padding-bottom: 25px;
+		border-bottom: 1px solid black;
+	}
+
+	.row .col-3:first-child {
+		border-bottom: 1px solid black;
+	}
+
+	.row-1 {
+		min-height: 394px;
+		margin-top: 25px;
+		margin-bottom: 0px;
+	}
+
+	.row-2 {
+		min-height: 375px;
+		margin-top: 25px;
+		margin-bottom: 0px;
+	}
+
+	.row-3 {
+		min-height: 375px;
+		margin-bottom: 0px;
+	}
+
+	h5.nightmare {
+		font-size: 275px;
+		line-height: 225px;
+}
+
+	h5.money {
+		font-size: 270px;
+		line-height: 248px;
+	}
+
+	img.pie {
+		max-width: 75%;
+		padding-bottom: 25px;
+	}
+}

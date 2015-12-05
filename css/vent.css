@@ -1,0 +1,170 @@
+html, body {
+	font-family: helvetica;
+	width: 100%;
+	max-width: 100%;
+} 
+
+#header {
+	background-color: #000000;
+	height: 80px; 
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;*/
+	margin-bottom: 100px !important;
+}
+
+h1 {
+	width: 200px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+	display: block;
+	float: left;
+	height: 60px;
+	margin-left: 25px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+.main_nav {
+	float: right;
+	margin-right: 25px;
+	margin-top: 29px;
+}
+
+.main_nav li {
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	padding-left: 10px;
+	letter-spacing: .5px;
+}
+
+.toggle-nav {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #b3b3b3;
+}
+
+
+#wrapper {
+	margin-top: 105px;
+}
+
+#pillow_vent {
+	text-align: center;
+}
+
+#visible_pillow:hover {
+	cursor: -webkit-grabbing; cursor: -moz-grabbing;
+}
+
+#hidden_pillow {
+	display: none;
+}
+
+.question_one {
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+	height: 80px;
+	width: 600px;
+	margin: -5px auto 0;
+}
+
+.main_form {
+	text-align: center;
+}
+
+.button {
+	background-color: black;
+	border-radius: 6px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	margin: 10px auto;
+	font-size: 14px;
+}
+
+#posts {
+	height: 100%;
+	width: 500px;
+	margin: 25px auto;
+}
+
+.post {
+	margin-bottom: 10px;
+}
+
+aside.vent {
+	font-weight: bold;
+}
+
+b {
+	font-size: 12px;
+}
+
+#footer {
+	clear: both;
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	height: 40px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	margin-top: 100px !important;
+}
+
+@media (max-width: 400px) {
+	.main {
+		position: relative;
+    }
+
+    .main ul.main_nav {
+    	display: none;
+    }
+
+    .main_nav ul {
+    	position: absolute;
+    	width: 100%;
+    	background: #303030;
+    }
+
+    .main_nav li {
+    	margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+	}
+	.toggle-nav {
+    	float: right;
+    	display: inline;
+    	color: #FFFDFD;
+    	margin-top: 28px;
+    	margin-right: 25px;
+    	font-size: 23px;
+    }
+	.visible_pillow {
+		width: 200px;
+	}
+
+	.question_one {
+		width: 300px;
+		font-size: 50px;
+		margin-bottom: 28px;
+	}
+	#posts {
+		width: 320px;
+	}
+}

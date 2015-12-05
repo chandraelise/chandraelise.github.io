@@ -1,0 +1,296 @@
+html, body {
+	font-family: helvetica;
+	width: 100%;
+	max-width: 100%;
+} 
+
+#header {
+	background-color: #000000;
+	height: 80px; 
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	margin-bottom: 100px !important;
+}
+
+h1 {
+	width: 200px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+	display: block;
+	float: left;
+	height: 60px;
+	margin-left: 25px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+.main_nav {
+	float: right;
+	margin-right: 25px;
+	margin-top: 29px;
+}
+
+.main_nav li {
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	padding-left: 10px;
+	letter-spacing: .5px;
+}
+
+.toggle-nav {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #b3b3b3;
+}
+
+#leave {
+	height: 100vh;
+	width: 100%;
+	display: block;
+	font-family: helvetica;
+	font-size: 2em;
+	color: #ffffff;
+	display: none;
+}
+
+/*#leave_bg{
+	height: 100vh;
+	width: 100%;
+}*/
+
+.leave_text::first-line{
+	font-weight: bolder;
+	font-size: 2.2em;
+	letter-spacing: .3em;
+}
+
+.leave_text {
+	width: 450px;
+	margin: 150px auto;
+	padding: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0, 0, 179, 0.25);
+	border: 2px solid #0066ff;
+	border-radius: 18px;
+	box-shadow: 0px 0px 50px #0066ff;
+}
+
+.peace {
+	margin-top: 30px;
+}
+
+#intro {
+	padding-top: 80px;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.character {
+	background-image: url("../imgs/pillow.gif");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 80%;
+	width: 100%;
+	position: absolute;
+	bottom: -450px;
+	height: 500px;
+	display: block;
+	text-align: center;
+	z-index: -1;
+}
+
+.question_one {
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 70px;
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	margin: 75px auto 25px;
+}
+
+.button {
+	background-color: black;
+	border-radius: 6px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.button:hover{
+	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/chillpill.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/chillpill.gif"), auto;
+}
+
+.question_two {
+	display: none;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
+	height: 150px;
+	width: 500px;
+	margin: 75px auto 25px;
+}
+
+#sliderInput {
+	width: 200px; 
+	height: 30px;
+	text-align: center;
+	background-color: #3f91e5;
+  	-webkit-appearance: slider-horizontal;
+  	writing-mode: bt-lr;"
+}
+
+#stress_level {
+	font-weight: bold;
+	display: block;
+}
+
+#test {
+	width: 50%;
+	padding-top: 80px;
+	background-color: white;
+	margin: 0 auto;
+}
+.carousel {
+	margin-top:	80px;
+	margin-bottom: -40px;
+}
+
+.carousel slick-intialized slick-slider {
+	margin-top:	80px;
+	margin-bottom: -40px;
+}
+
+.slick-dots ul{
+	position: relative;
+	bottom: 0;
+	text-align: center;
+}
+
+#footer {
+	clear: both;
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	height: 40px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	margin-top: 100px !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	.carousel {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 400px) {
+	/*.main {
+		/*position: relative;
+		display: none;*/
+    /*}*/
+/*
+    .main ul.main_nav {
+    	display: none;
+    }
+
+    .main_nav ul {
+    	position: absolute;
+    	width: 100%;
+    	background: #303030;
+    }*//**/
+
+    /*.main_nav li {
+    	margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+
+    .main_nav a {
+    	display: block;
+    }*/
+
+    .intro {
+    	width: 50%;
+    }
+    .question_one {
+    	font-size: 66px;
+    	line-height: 67px;
+    	display: block;
+    	position: absolute;
+    	color: red;
+    }
+    .question_two {
+    	width: 250px;
+    }
+
+    .carousel {
+		width: 75%;
+		margin: 0 auto;
+	}
+    
+    .toggle-nav {
+    	float: right;
+    	display: inline;
+    	color: #FFFDFD;
+    	margin-top: 28px;
+    	margin-right: 25px;
+    	font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  	.main_nav {
+  		display: none;
+  	}
+  	.question_one {
+    	font-size: 66px;
+    	line-height: 67px;
+    	display: block;
+    	position: absolute;
+    	/*color: red;*/
+    }
+
+    /*.character {
+    	background-size: 100%;
+    }*/
+
+    .toggle-nav {
+    	float: right;
+    	display: inline;
+    	color: #FFFDFD;
+    	margin-top: 28px;
+    	margin-right: 25px;
+    	font-size: 23px;
+    }
+ }
+
+
+

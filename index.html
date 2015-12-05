@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html>
+	<head>
+
+	  <title>Chill Bro</title>
+
+	  	<meta charset="utf-8">
+
+	  	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	  	<link rel="stylesheet" type="text/css" href="slick-1.5.7/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick-1.5.7/slick/slick-theme.css"/>
+	  	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>Chill Pill</h1>
+			<nav class="main">
+				<ul class="main_nav"  role="full-horizontal">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#test">Tips</a></li>
+					<li><a href="vent/vent.html">Vent</a></li>
+					<li><a href="charts/charts.html">&ldquo;Facts&rdquo;</a>
+					</li>
+				</ul>
+
+			<a class="toggle-nav" href="#">&#9776;</a>
+			</nav>
+		</div><!-- closes header div-->
+
+		<div id="wrapper">
+			
+			<!-- This is a black box to be displayed when user clicks No. -->
+			
+			<div id="leave">
+				<div class="leave_text">
+					<p>Nice... <br>go experience your zen someplace else.</p>
+					<img class="peace" src="imgs/peace.gif" width="50"/>
+					<p><span style="font-weight:normal">#tooblessedtobestressed</span></p>
+					
+				</div>
+				<!-- <div id="leave_bg">
+				</div> -->	
+			</div>
+			
+			<div id="intro">
+				
+				<div class="question_one">
+					<p>Feeling stressed?</p>
+					
+					<button id="button_yes" class="button" type="button">Totally</button>
+					<button id="button_no" class="button" type="button">Not Really</button>
+				</div>
+				<div class="question_two">
+					<p>On a scale of 1 to 10<br>how stressed are you, boo?</p>
+					
+						<input id="sliderInput" type="range" min="0" max="10" value="0" oninput="stress_level.value=sliderInput.value" />
+							<!-- <datalist id="numbers">
+								<option>1</option>
+								<option>2</option>
+							</datalist> -->
+						<output name="level" id="stress_level" for="sliderInput">1</output>
+						<input id="stress_submit" class="button" type="submit" value="Gah!" />
+					
+				</div>
+
+				<div class="character">
+				</div>
+			</div> <!-- closes intro panel div -->
+
+			<div id="test">
+				<div name="carousel" class="carousel"></a>
+					<img src="imgs/slider/stress_slides.jpg" alt="get physical">
+					<img src="imgs/slider/stress_slides2.jpg" alt="Giving">
+					<img src="imgs/slider/stress_slides3.jpg" alt="Nature">
+					<img src="imgs/slider/stress_slides4.jpg" alt="Hydrated">
+					<img src="imgs/slider/stress_slides5.jpg" alt="Disconnect">
+					<img src="imgs/slider/stress_slides6.jpg" alt="Mantra">
+					<img src="imgs/slider/stress_slides7.jpg" alt="Bang Head Here">
+					<img src="imgs/slider/stress_slides8.jpg" alt="Brit Brit loses her cool">
+					<img src="imgs/slider/stress_slides9.jpg" alt="Scream into the void">
+					<img src="imgs/slider/stress_slides10.jpg" alt="Return some video tapes">
+			</div><!--closes carousel -->
+		
+		</div><!-- test-->
+
+		<div id="footer">
+			<p>&copy; Later dude</p>
+		</div><!-- closes footer-->
+	<script language="javascript" type="text/javascript" src="slick-1.5.7/slick/slick.min.js"></script>
+	<script language="javascript" type="text/javascript" src="quietflow.js-master/lib/quietflow.min.js"></script>
+	<script language="javascript" type="text/javascript" src="css/easing.js"></script>
+	<script language="javascript" type="text/javascript" src="css/script.js"></script>
+	</body>
+</html>
